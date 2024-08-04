@@ -1,5 +1,7 @@
 import estilo from "./Inicio.module.css";
 
+export const runtime = "edge";
+
 async function getUsuarios() {
   const consulta = await fetch("https://api.escuelajs.co/api/v1/users");
   const respuesta = await consulta.json();

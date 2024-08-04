@@ -1,8 +1,10 @@
 import { NextResponse } from "next/server";
 
-export const config = {
-  runtime: "edge",
-};
+export const runtime = "edge";
+
+export default async function handler(req, res) {
+  // Tu lógica de manejo de la API
+}
 
 export function GET(request) {
   return NextResponse.json("obteniendo un producto");

@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 
-
 export const runtime = "edge";
 
 const poppins = Poppins({
